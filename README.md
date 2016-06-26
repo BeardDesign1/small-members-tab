@@ -1,7 +1,8 @@
 # Small Members Tab
 **By Beard Design**
 
-http://www.beard-design.com/
+> http://www.beard-design.com/
+
 # Preview:
 **Normal:**
 
