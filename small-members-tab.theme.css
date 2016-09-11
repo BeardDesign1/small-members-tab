@@ -1,4 +1,4 @@
-//META{"name":"Small-members-tab","description":"make the members tab smaller and get full size on hover","author":"Beard_Design","version":"1.0.0"}*//{}
+//META{"name":"Small-members-tab","description":"make the members tab smaller and get full size on hover","author":"Beard_Design","version":"1.1.0"}*//{}
 
 /*-------------------made by Beard Design-------------------------*/
 .channel-members{
@@ -46,7 +46,7 @@
     transform:scale(1);
 }
 .chat.flex-vertical.flex-spacer>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical{
-    margin-right:-145px;
+    margin-right:-150px;
     z-index:1
 }
 .chat.flex-vertical.flex-spacer.private>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical{
