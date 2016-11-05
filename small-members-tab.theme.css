@@ -1,9 +1,9 @@
-//META{"name":"Small-members-tab","description":"Make the members tab smaller(it gets full size when you hover it).","author":"Beard_Design","version":"1.2.0"}*//{}
+//META{"name":"Small-members-tab","description":"Make the members tab smaller(it gets full size when you hover it).","author":"Beard_Design","version":"1.3.0"}*//{}
 
 /*-------------------made by Beard Design-------------------------*/
 .channel-members{
     transform:translate(0px);
-    z-index:2;
+    z-index:200000;
     transition:all 300ms ease;
 }
 .channel-members:hover{
@@ -17,7 +17,7 @@
 .channel-members .member .member-activity,
 .channel-members .member .member-username-inner{
     opacity:0;
-    transition:opacity 300ms ease;
+    transition:all 100ms ease;
     
 }
 .channel-members .member .member-username-inner{
@@ -46,13 +46,9 @@
     transform:scale(1);
 }
 
-.chat.flex-vertical.flex-spacer>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical{
-    z-index:1
-}
-
 .chat.flex-vertical.flex-spacer.private>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical{
     margin-right:0px;
-    z-index:1
+    z-index:0
 }
 .channel-members-wrap{
     min-width:90px!important;
